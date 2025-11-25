@@ -124,9 +124,8 @@ if uploaded_file is not None:
             st.dataframe(emoji_df)
         with col2:
             fig,ax = plt.subplots()
-            if len(emoji_df) == 1:
-                ax.pie(emoji_df[1],labels=emoji_df[0],autopct='%0.2f',textprops={'fontsize': 14, 'fontname': 'Segoe UI Emoji'})
-                st.pyplot(fig)
+            ax.pie(emoji_df[1],labels=emoji_df[0],autopct='%0.2f',textprops={'fontsize': 14, 'fontname': 'Segoe UI Emoji'})
+            st.pyplot(fig)
     
 
 st.sidebar.title('Steps to Export Whatsapp Chat')
