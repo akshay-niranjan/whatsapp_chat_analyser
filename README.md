@@ -8,13 +8,13 @@ WebApp Link ~ https://akshayxchatanalysis.streamlit.app/
 FEATURES
 How it Works
  WhatsApp Chat Export
-        ↓ 
+        -> 
  Cleaning Up Data and Creating DataFrame(preprocessor.py)
-        ↓
+        ->
  Creating Functions for analysis(helper.py)
-        ↓ 
+        -> 
  Making Charts with Streamlit
-        ↓
+        ->
  Also it works with respect to overall or selected user analysis
  --------------------------------------------------
 
