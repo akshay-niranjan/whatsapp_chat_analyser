@@ -48,7 +48,8 @@ How it was Built:
   - emoji
   - URLExtract
   - WordCloud
- It can
+    
+ and It can
  - Get user stats
  - Make a word cloud
  - Find used words
