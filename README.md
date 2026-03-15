@@ -57,6 +57,9 @@ How it was Built:
  - See chat activity over time
    
 3. wtp_chat_analyser.py (Streamlit Web App)
+   
+    This file contains the Streamlit based web interface for the application.
+   
   It uses
   - Python
   - Pandas
@@ -67,5 +70,5 @@ How it was Built:
   - WordCloud
   - Counter
   - Emoji
- This file contains the Streamlit based web interface for the application.
+
 --------------------------------------------------
